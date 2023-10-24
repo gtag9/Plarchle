@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Slope",
+        "file": "/games/slope/index.html",
+        "img": "/games/slope/thumbnail.png"
+    },
+
+    {
+        "name": "Eggy Car",
+        "file": "/games/eggycar/index.html",
+        "img": "/games/eggycar/thumbnail.png"
+    },
+
+    {
+        "name": "Grey-Box Testing",
+        "file": "/games/greyboxtesting/index.html",
+        "img": "/games/greyboxtesting/thumbnail.png"
+    },
+
+    {
+        "name": "Where's Bill",
+        "file": "/games/wheresbill/index.html",
+        "img": "/games/wheresbill/thumbnail.png"
+    }
+]
