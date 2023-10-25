@@ -21,5 +21,23 @@
         "name": "Where's Bill",
         "file": "/games/wheresbill/index.html",
         "img": "/games/wheresbill/thumbnail.png"
+    },
+
+    {
+        "name": "Subway Surfers",
+        "file": "/games/subwaysurfers/index.html",
+        "img": "/games/subwaysurfers/thumbnail.png"
+    },
+
+    {
+        "name": "Run 3",
+        "file": "/games/run3/index.html",
+        "img": "/games/run3/thumbnail.png"
+    },
+
+    {
+        "name": "Vex 1",
+        "file": "/games/vex/games/waflash/?swf=vex.swf&name=Vex%201",
+        "img": "/games/vex/thumbnail.png"
     }
 ]
