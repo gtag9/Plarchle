@@ -1,6 +1,7 @@
 fetch('gamelist.json')
             .then(response => response.json())
             .then(data => {
+                data.sort((a, b) => a.name.localeCompare(b.name));
                 const gameList = document.getElementById('gameList');
                 data.forEach(game => {
                     const gameItem = document.createElement('div');

@@ -39,5 +39,17 @@
         "name": "Vex 1",
         "file": "/games/vex/games/waflash/?swf=vex.swf&name=Vex%201",
         "img": "/games/vex/thumbnail.png"
+    },
+
+    {
+        "name": "Run",
+        "file": "/games/run/index.html",
+        "img": "/games/run/thumbnail.png"
+    },
+
+    {
+        "name": "Flappy Bird",
+        "file": "/games/flappybird/index.html",
+        "img": "/games/flappybird/thumbnail.png"
     }
 ]
