@@ -57,5 +57,11 @@
         "name": "Run 2",
         "file": "/games/run2/index.html",
         "img": "/games/run2/thumbnail.png"
+    },
+
+    {
+        "name": "Friday Night Funkin'",
+        "file": "/games/fnf/index.html",
+        "img": "/games/fnf/thumbnail.jpg"
     }
 ]
