@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <style>
+    html,
+    body,
+    #jsdos {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      user-select: none;
+      -webkit-user-select: none;
+    } 
+    #entrompadas {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-color: rgb(255 255 255 / 85%);
+	top: 0;
+	left: 0;
+	z-index: 9;
+	color: white; 
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(5px);
+}
+    #entrompadas div {
+      margin-left: 25%;
+    margin-right: 25%;
+    width: 697px;
+	text-align: center;
+  margin-top: 25px;
+}
+
+#entrompadas div p.title {
+	display: block;
+    font-size: 30px;
+    font-family: system-ui;
+	background-color: black;
+    color: white;
+    margin: 0;
+    padding: 25px;
+}
+
+#entrompadas div p.text {
+	display: block;
+    font-size: 20px;
+    color: black;
+    font-family: system-ui;
+	background-color: #fbb;
+    padding: 10px;
+    margin: 0;
+	margin-bottom: 50px;
+}
+  </style>
+  <script src="js-dos/js-dos.js"></script>
+  <link href="js-dos/js-dos.css" rel="stylesheet">
+  <script type="text/javascript" src="/games/doom/bundle.umd.js"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TX2RRFPL3G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TX2RRFPL3G');
+</script>
+
+<body>
+<div id="entrompadas" style="display: none;">
+      <div>
+        <p class="title">Uh oh. Looks like you´re using an ad blocker.<img src="/games/doom/images/adblockers.png" style="float: left;"></p>
+        <p class="text">Please disable this site in your adblocker. Below you have a video explaining how to deactivate it only for this site.
+        </p>
+        <iframe width="700" height="380" src="https://www.youtube.com/embed/FmhxZiJhUR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+     
+    </div>
+  <div id="jsdos" />
+  <script>
+    
+    var blext;
+	    justDetectAdblock.detectAnyAdblocker().then(function(detected) {
+		if(detected){
+		  blext = true;
+		}
+	  });
+
+
+    
+
+      setTimeout(function(){
+        if (blext){
+        var elem = document.querySelector('#jsdos');
+        elem.parentNode.removeChild(elem);
+      }
+      }, 10000);
+
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const game = urlParams.get('prn')
+    emulators.pathPrefix = '/js-dos/';
+    Dos(document.getElementById("jsdos"), {
+      title: "js-dos",
+      style: "dark",  
+    }).run('/games/doom/game/_prn');
+
+
+    document.onkeydown = keydown;
+
+function keydown(evt) {
+    if (!evt) evt = event;
+    if (evt.altKey) {
+      evt.preventDefault();
+    }
+} // function keydown(evt)​
+
+    	
+var _0xde2b=["\x6F\x6E\x6C\x6F\x61\x64","\x69\x66\x72\x61\x6D\x65","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x70\x72\x6F\x74\x6F\x63\x6F\x6C","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x73\x72\x63","","\x2F\x2F\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F","\x2F\x61\x64\x73\x2E\x68\x74\x6D\x6C","\x68\x65\x69\x67\x68\x74","\x2E\x31\x70\x78","\x77\x69\x64\x74\x68","\x69\x64","\x73\x6F\x6D\x65\x2D\x61\x64","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x6E\x6F\x6E\x65","\x68\x69\x64\x64\x65\x6E","\x76\x69\x73\x69\x62\x69\x6C\x69\x74\x79","\x6F\x66\x66\x73\x65\x74\x48\x65\x69\x67\x68\x74","\x65\x6E\x74\x72\x6F\x6D\x70\x61\x64\x61\x73","\x66\x6C\x65\x78","\x72\x65\x6D\x6F\x76\x65","\x67\x61\x6D\x65\x73\x77\x66\x42\x4F\x58","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x47\x45\x54","\x6F\x70\x65\x6E","\x6F\x6E\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6E\x67\x65","\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65","\x73\x74\x61\x74\x75\x73","\x72\x65\x73\x70\x6F\x6E\x73\x65\x54\x65\x78\x74","\x73\x65\x6E\x64"];window[_0xde2b[0]]= ()=>{const _0xf2e7x1=document[_0xde2b[2]](_0xde2b[1]);const _0xf2e7x2=Math[_0xde2b[4]](Math[_0xde2b[3]]()* (10000- 123+ 1))+ 123;const _0xf2e7x3=window[_0xde2b[6]][_0xde2b[5]];_0xf2e7x1[_0xde2b[7]]= `${_0xde2b[8]}${_0xf2e7x3}${_0xde2b[9]}${_0xf2e7x2}${_0xde2b[10]}`;_0xf2e7x1[_0xde2b[11]]= _0xde2b[12];_0xf2e7x1[_0xde2b[13]]= _0xde2b[12];_0xf2e7x1[_0xde2b[14]]= _0xde2b[15];getRequest(_0xf2e7x1,(_0xf2e7x4)=>{document[_0xde2b[17]][_0xde2b[16]](_0xf2e7x1)},(_0xf2e7x5,_0xf2e7x6)=>{if(_0xf2e7x6=== 0){document[_0xde2b[17]][_0xde2b[16]](_0xf2e7x1)}});setTimeout(()=>{const _0xf2e7x7=document[_0xde2b[18]](_0xde2b[15]);if(_0xf2e7x7=== null|| _0xf2e7x7[_0xde2b[20]][_0xde2b[19]]== _0xde2b[21]|| _0xf2e7x7[_0xde2b[20]][_0xde2b[19]]== _0xde2b[22]|| _0xf2e7x7[_0xde2b[20]][_0xde2b[23]]== _0xde2b[22]|| _0xf2e7x7[_0xde2b[24]]=== 0){document[_0xde2b[18]](_0xde2b[25])[_0xde2b[20]][_0xde2b[19]]= _0xde2b[26],setTimeout(function(){document[_0xde2b[29]](_0xde2b[28])[0][_0xde2b[27]]()},10000)}else {_0xf2e7x7[_0xde2b[27]]()}},500)};function getRequest(_0xf2e7x1,_0xf2e7x9,_0xf2e7xa){const _0xf2e7x5= new XMLHttpRequest();_0xf2e7x5[_0xde2b[31]](_0xde2b[30],_0xf2e7x1[_0xde2b[7]]);_0xf2e7x5[_0xde2b[32]]= ()=>{if(_0xf2e7x5[_0xde2b[33]]== 4){if(_0xf2e7x5[_0xde2b[34]]== 200){_0xf2e7x9(_0xf2e7x5[_0xde2b[35]])}else {_0xf2e7xa(_0xf2e7x5,_0xf2e7x5[_0xde2b[34]])}}};_0xf2e7x5[_0xde2b[36]]()}
+ 
+ </script>
+</body>
+
+</html>

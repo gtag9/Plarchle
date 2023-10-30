@@ -63,5 +63,17 @@
         "name": "Friday Night Funkin'",
         "file": "/games/fnf/index.html",
         "img": "/games/fnf/thumbnail.jpg"
+    },
+
+    {
+        "name": "Cookie Clicker",
+        "file": "/games/cookieclicker/index.html",
+        "img": "/games/cookieclicker/thumbnail.png"
+    },
+
+    {
+        "name": "DOOM",
+        "file": "/games/doom/game/index.html",
+        "img": "/games/doom/thumbnail.jpg"
     }
 ]
