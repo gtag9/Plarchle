@@ -69,5 +69,11 @@
         "name": "Cookie Clicker",
         "file": "/games/cookieclicker/index.html",
         "img": "/games/cookieclicker/thumbnail.png"
+    },
+
+    {
+        "name": "Minecraft",
+        "file": "/games/minecraft/index.html",
+        "img": "/games/minecraft/thumbnail.png"
     }
 ]
