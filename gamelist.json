@@ -75,5 +75,11 @@
         "name": "Minecraft",
         "file": "/games/minecraft/index.html",
         "img": "/games/minecraft/thumbnail.png"
+    },
+
+    {
+        "name": "Cluster Rush",
+        "file": "/games/clusterrush/index.html",
+        "img": "/games/clusterrush/thumbnail.png"
     }
 ]
