@@ -87,5 +87,11 @@
         "name": "Amazing Rope Police",
         "file": "/games/amazingropepolice/index.html",
         "img": "/games/amazingropepolice/thumbnail.jpeg"
+    },
+
+    {
+        "name": "FNAF 1",
+        "file": "/games/fnaf1/index.html",
+        "img": "/games/fnaf1/thumbnail.jpg"
     }
 ]
