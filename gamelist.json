@@ -81,5 +81,11 @@
         "name": "Cluster Rush",
         "file": "/games/clusterrush/index.html",
         "img": "/games/clusterrush/thumbnail.png"
+    },
+
+    {
+        "name": "Amazing Rope Police",
+        "file": "/games/amazingropepolice/index.html",
+        "img": "/games/amazingropepolice/thumbnail.jpeg"
     }
 ]
