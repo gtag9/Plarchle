@@ -93,5 +93,11 @@
         "name": "FNAF 1",
         "file": "/games/fnaf1/index.html",
         "img": "/games/fnaf1/thumbnail.jpg"
+    },
+
+    {
+        "name": "SNES Emulator",
+        "file": "/games/snes/index.html",
+        "img": "/games/snes/thumbnail.jpg"
     }
 ]
