@@ -7,7 +7,7 @@
     <h1>Directory Listing</h1>
     <ul>
         <?php
-        $directory = 'https://realpeanut.github.io/games/snes/roms/'; // Replace with the path to your directory
+        $directory = '/games/snes/roms/'; // Replace with the path to your directory
         $files = scandir($directory);
         
         foreach ($files as $file) {
