@@ -105,5 +105,11 @@
         "name": "Super Mario 64",
         "file": "/games/sm64/index.html",
         "img": "/games/sm64/thumbnail.jpg"
+    },
+
+    {
+        "name": "fnaf2",
+        "file": "/games/fnaf2/index.html",
+        "img": "/games/fnaf2/thumbnail.jpg"
     }
 ]
