@@ -1,19 +1,3 @@
-function filterGames() {
-    const gameContainer = document.getElementById("game-container");
-    const searchInput = document.getElementById("pageTitle").value.toLowerCase();
-    const gameDivs = gameContainer.getElementsByClassName("game-container");
-
-    for (let gameDiv of gameDivs) {
-        const gameTitle = gameDiv.getElementsByClassName("game-title")[0].textContent.toLowerCase();
-
-        if (gameTitle.includes(searchInput)) {
-            gameDiv.style.display = "inline-block"; // Show the game div
-        } else {
-            gameDiv.style.display = "none"; // Hide the game div
-        }
-    }
-}
-
 fetch("gamelist.json")
             .then(response => response.json())
             .then(data => {
