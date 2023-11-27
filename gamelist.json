@@ -111,11 +111,14 @@
         "name": "FNAF 2",
         "file": "/games/fnaf2/index.html",
         "img": "/games/fnaf2/thumbnail.jpg"
+<<<<<<< HEAD
     },
 
     {
         "name": "Flappy 2048",
         "file": "/games/flappy2048/index.html",
         "img": "/games/flappy2048/thumbnail.png"
+=======
+>>>>>>> e220eda7291de86127418f6d5e678b3d44e8b35f
     }
 ]

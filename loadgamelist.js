@@ -23,4 +23,8 @@ fetch("gamelist.json")
                     gameContainer.appendChild(gameDiv);
                 });
             })
+<<<<<<< HEAD
             .catch(error => console.error("Error loading gamelist.json:", error));
+=======
+            .catch(error => console.error("Error loading gamelist.json:", error));
+>>>>>>> e220eda7291de86127418f6d5e678b3d44e8b35f

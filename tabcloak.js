@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", function() {
     // Check if the 'access' cookie exists
     const accessCookie = getCookie("access");
@@ -50,6 +51,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+=======
+// Function to save the title preference in a cookie
+>>>>>>> e220eda7291de86127418f6d5e678b3d44e8b35f
 function saveTitlePreference() {
     const pageTitle = getCookie("pageTitle");
     document.title = `${pageTitle}`;
@@ -90,4 +94,11 @@ function getCookie(name) {
         }
     }
     return '';
+<<<<<<< HEAD
 }
+=======
+}
+
+// Call the function to display the saved title preference when the page loads
+displayTitlePreference();
+>>>>>>> e220eda7291de86127418f6d5e678b3d44e8b35f
