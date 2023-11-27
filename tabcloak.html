@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tab Cloak | the realest</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="tabcloak.js"></script>
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+</head>
+<body>
+    <div class="header">
+        <div class="title">Tab Cloak</div>
+        <div class="subtitle">Disguise the website!</div>
+        <div class="button-container">
+            <input class="input-box" type="text" id="pageTitle" placeholder="Enter Page Title">
+            <button class="button" onclick="saveTitlePreference()">Save Title</button> <br><br>
+            <input class="input-box" type="text" id="iconLinkInput" placeholder="Enter Icon Link">
+            <button class="button" onclick="saveIconPreference()">Save Icon</button>
+            <div class="title">Templates</div>
+            <!--<button class="button" onclick="Template('gc')">Google Classroom</button>-->
+
+        </div>
+    </div>
+
+    <script>
+        // Function to save the title preference in a cookie
+        function saveTitlePreference() {
+            const pageTitle = document.getElementById("pageTitle").value;
+            document.title = `${pageTitle}`;
+            document.cookie = `pageTitle=${pageTitle}; path=/; max-age=31536000`; // Set a cookie that lasts for a year
+        }
+
+        function saveIconPreference() {
+            const iconLink = document.getElementById("iconLinkInput").value;
+            document.cookie = `iconLink=${iconLink}; path=/; max-age=31536000`; // Set a cookie that lasts for a year
+        }
+
+        function Template(template) {
+            if (template = 'gc') {
+                document.title = "Home";
+                document.cookie = `pageTitle=Home; path=/; max-age=31536000`;
+                document.cookie = `iconLink=https://ssl.gstatic.com/classroom/favicon.png; path=/; max-age=31536000`;
+            }
+        }
+    </script>
+</body>
+</html>
